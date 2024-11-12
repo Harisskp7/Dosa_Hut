@@ -10,3 +10,14 @@ body {
   padding: 0;
   margin: 0;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+}

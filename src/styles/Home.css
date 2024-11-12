@@ -92,3 +92,32 @@
       color: #121619;
     }
   }
+
+
+  @media only screen and (max-width: 768px) {
+    .home {
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .headerContainer {
+      margin-left: 0;
+      width: 90%;
+      padding: 15px;
+      text-align: center;
+    }
+  
+    .headerContainer h1 {
+      font-size: 40px;
+    }
+  
+    .headerContainer p {
+      font-size: 18px;
+    }
+  
+    .headerContainer button {
+      width: 100%;
+      font-size: 16px;
+      margin-top: 15px;
+    }
+  }
